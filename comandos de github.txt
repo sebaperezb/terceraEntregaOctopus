@@ -1,0 +1,130 @@
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~OneDriveEscritorioCODERHOUSE 2023Desarrollo WebHTMLterceraEntrega    
+$ git init terceraEntrega
+Initialized empty Git repository in CUsersSebastian PerezOneDriveEscritorioCODERHOUSE 2023Desarrollo WebHTMLterceraEntregaterceraEntrega.git
+
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~OneDriveEscritorioCODERHOUSE 2023Desarrollo WebHTMLterceraEntrega
+$ git status
+fatal not a git repository (or any of the parent directories) .git
+
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~OneDriveEscritorioCODERHOUSE 2023Desarrollo WebHTMLterceraEntrega
+$ cd terceraEntrega
+
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~OneDriveEscritorioCODERHOUSE 2023Desarrollo WebHTMLterceraEntregaterceraEntrega (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files
+  (use git add file... to include in what will be committed)
+        images
+        index.html
+        pages
+        sass
+
+nothing added to commit but untracked files present (use git add to track)
+
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~OneDriveEscritorioCODERHOUSE 2023Desarrollo WebHTMLterceraEntregaterceraEntrega (master)
+$ git add .
+warning LF will be replaced by CRLF in sassmain.css.
+The file will have its original line endings in your working directory
+
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~OneDriveEscritorioCODERHOUSE 2023Desarrollo WebHTMLterceraEntregaterceraEntrega (master)
+$ git branch -M main
+
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~OneDriveEscritorioCODERHOUSE 2023Desarrollo WebHTMLterceraEntregaterceraEntrega (main)
+$ git remote add origin httpsgithub.comsebaperezbterceraEntregaOctopus.git
+
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~OneDriveEscritorioCODERHOUSE 2023Desarrollo WebHTMLterceraEntregaterceraEntrega (main)
+$ git push -u origin main
+error src refspec main does not match any
+error failed to push some refs to 'httpsgithub.comsebaperezbterceraEntregaOctopus.git'
+
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~OneDriveEscritorioCODERHOUSE 2023Desarrollo WebHTMLterceraEntregaterceraEntrega (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed
+  (use git rm --cached file... to unstage)
+        new file   imagesGoogle_Maps_logo_icon.png
+        new file   imagesboulder.png
+        new file   imagesdesplome.jpg
+        new file   imagesdesplome2.jpg
+        new file   imagesfuncional.jpg
+        new file   imageslogoFacebook.png
+        new file   imageslogoInstragram.png
+        new file   imageslogoNegro.jpg
+        new file   imageslogoNegroCuadrado.jpg
+        new file   imageslogonegropng.png
+        new file   imagesmendotranza.png
+        new file   imagesmultipresas3.jpg
+        new file   imagesmultipresas4.jpg
+        new file   imagesni303261os.jpeg
+        new file   imagessystemViejo.jpg
+        new file   imagestatami1.jpg
+        new file   index.html
+        new file   pagesclases.html
+        new file   pageslogin.html
+        new file   pagesmuro.html
+        new file   pagesregistro.html
+        new file   pagestarifa.html
+        new file   sassmain.css
+        new file   sassmain.css.map
+        new file   sassmain.scss
+
+
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~OneDriveEscritorioCODERHOUSE 2023Desarrollo WebHTMLterceraEntregaterceraEntrega (main)
+$ git git commit -m sass, animaciones y mejoras a la vista mobile
+git 'git' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~OneDriveEscritorioCODERHOUSE 2023Desarrollo WebHTMLterceraEntregaterceraEntrega (main)
+$ git commit -m sass, animaciones y mejoras a la vista mobile
+[main (root-commit) 9948efb] sass, animaciones y mejoras a la vista mobile
+ 25 files changed, 2204 insertions(+)
+ create mode 100644 imagesGoogle_Maps_logo_icon.png
+ create mode 100644 imagesboulder.png
+ create mode 100644 imagesdesplome.jpg
+ create mode 100644 imagesdesplome2.jpg
+ create mode 100644 imagesfuncional.jpg
+ create mode 100644 imageslogoFacebook.png
+ create mode 100644 imageslogoInstragram.png
+ create mode 100644 imageslogoNegro.jpg
+ create mode 100644 imageslogoNegroCuadrado.jpg
+ create mode 100644 imageslogonegropng.png
+ create mode 100644 imagesmendotranza.png
+ create mode 100644 imagesmultipresas3.jpg
+ create mode 100644 imagesmultipresas4.jpg
+ create mode 100644 imagesni303261os.jpeg
+ create mode 100644 imagessystemViejo.jpg
+ create mode 100644 imagestatami1.jpg
+ create mode 100644 index.html
+ create mode 100644 pagesclases.html
+ create mode 100644 pageslogin.html
+ create mode 100644 pagesmuro.html
+ create mode 100644 pagesregistro.html
+ create mode 100644 pagestarifa.html
+ create mode 100644 sassmain.css
+ create mode 100644 sassmain.css.map
+ create mode 100644 sassmain.scss
+
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~OneDriveEscritorioCODERHOUSE 2023Desarrollo WebHTMLterceraEntregaterceraEntrega (main)
+$ git remote add origin httpsgithub.comsebaperezbterceraEntregaOctopus.git
+error remote origin already exists.
+
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~OneDriveEscritorioCODERHOUSE 2023Desarrollo WebHTMLterceraEntregaterceraEntrega (main)
+$ git push -u origin main
+Enumerating objects 30, done.
+Counting objects 100% (3030), done.
+Delta compression using up to 8 threads
+Compressing objects 100% (2929), done.
+Writing objects 100% (3030), 11.23 MiB  5.54 MiBs, done.
+Total 30 (delta 4), reused 0 (delta 0), pack-reused 0
+remote Resolving deltas 100% (44), done.
+To httpsgithub.comsebaperezbterceraEntregaOctopus.git
+  [new branch]      main - main
+branch 'main' set up to track 'originmain'.
